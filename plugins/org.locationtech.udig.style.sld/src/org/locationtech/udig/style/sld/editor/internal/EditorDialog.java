@@ -212,8 +212,8 @@ public class EditorDialog extends Dialog implements IEditorPageContainer, IPageC
 	 */
 	private TreeViewer treeViewer;
 	
-    private ListenerList<IPageChangedListener> pageChangedListeners = 
-    		new ListenerList<IPageChangedListener>(ListenerList.IDENTITY);
+    private ListenerList pageChangedListeners = 
+    		new ListenerList(ListenerList.IDENTITY);
 
 	/**
 	 * Creates a new preference dialog under the control of the given preference
