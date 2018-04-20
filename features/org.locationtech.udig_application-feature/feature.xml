@@ -155,13 +155,6 @@ License v1.0 (http://www.eclipse.org/org/documents/edl-v10.html).
          unpack="false"/>
 
    <plugin
-         id="org.locationtech.udig.bookmarks"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.locationtech.udig.feature.editor"
          download-size="0"
          install-size="0"
@@ -260,6 +253,20 @@ License v1.0 (http://www.eclipse.org/org/documents/edl-v10.html).
 
    <plugin
          id="org.locationtech.udig.style.sld.raster"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.locationtech.udig.bookmarks"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.locationtech.udig.exview"
          download-size="0"
          install-size="0"
          version="0.0.0"

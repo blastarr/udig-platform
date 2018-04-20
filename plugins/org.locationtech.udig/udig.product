@@ -30,7 +30,6 @@
    <launcher name="udig_internal">
       <linux icon="/org.locationtech.udig/icons/udig.xpm"/>
       <macosx icon="/org.locationtech.udig/icons/icon128.icns"/>
-      <solaris/>
       <win useIco="true">
          <ico path="/org.locationtech.udig/icons/udig.ico"/>
          <bmp/>
@@ -74,6 +73,9 @@ Content and such source code may be obtained at http://github.com/udig .
       <feature id="org.eclipse.emf.common"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.equinox.p2.user.ui" version="2.2.0.v20140523-0116"/>
+      <feature id="org.locationtech.udig_platform-feature"/>
+      <feature id="org.locationtech.udig_printing-feature"/>
+      <feature id="org.eclipse.e4.rcp"/>
    </features>
 
    <configurations>
